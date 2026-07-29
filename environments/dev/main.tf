@@ -1,4 +1,4 @@
-/*
+
 module "vpc" {
     source = "../../modules/vpc"
     vpc_cidr = var.vpc_cidr
@@ -16,4 +16,3 @@ module "ec2" {
     ec2_count = var.ec2_count
     env = var.env
 }
-*/
