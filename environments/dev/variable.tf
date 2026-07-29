@@ -41,8 +41,3 @@ variable "ec2_count" {
   type        = string
   description = "No of my EC2 to be created"
 }
-
-variable "env" {
-  type        = string
-  description = "What Env we are creating (dev, qa, production)"
-}
