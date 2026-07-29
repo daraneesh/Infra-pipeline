@@ -32,10 +32,6 @@ variable "instance_type" {
   description = "Instance Type of my EC2"
 }
 
-variable "subnet_id" {
-  type        = string
-  description = "Subnet ID of my EC2"
-}
 
 variable "ec2_count" {
   type        = string
