@@ -7,6 +7,6 @@ subnet_az   = "ap-south-1a"
 
 
 
-ami_id        = "ami-02b64aa047cb5edf5"  # Example Amazon Linux 2023 AMI for ap-south-1
+ami_id        = "ami-00d2dbb426772b03a"  # Example Amazon Linux 2023 AMI for ap-south-1
 instance_type = "t3.micro"
 ec2_count     = "3"
