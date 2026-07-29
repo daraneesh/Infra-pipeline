@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "terra-statefilestore"
-    key    = "environments/dev/terraform.tfstate"
+    key    = "environments/qa/terraform.tfstate"
     region = "us-east-1"
     dynamodb_table = "Terraform-lock"             # Enables state locking
     encrypt        = true
@@ -17,5 +17,6 @@ terraform {
 provider "aws" {
 
       region = var.region
+      
       
 }
